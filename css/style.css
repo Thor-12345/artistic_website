@@ -280,15 +280,25 @@ h1:nth-child(3) {
     font-size: 1.7rem;
 }
 
-.right-side {
+.middle-text {
     float: right;
-    width: 400px;
+    width: 330px;
+
+    position: absolute;
+    bottom: 150px;
+    left: 540px;
+    line-height: 1.5rem;
+}
+
+.right-side h2 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 2rem;
 }
 
 .img-grid {
     height: 100%;
     width: 500px;
-    background-color: green;
 }
 
 
