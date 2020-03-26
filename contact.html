@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daniel Colton - Portfolio & contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6e489ebad2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.ico">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="horizontal-line"></div>
+        <div class="vertical-line"></div>
+        <header>
+            <section class="nav-search">
+                <nav>
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="./works.html">Works</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                    <p id="searchText">Search</p>
+                    <input id="searchInput" class="hidden" type="text" placeholder="Search here...">
+                </div>
+            </section>
+        </header>
+        <aside>
+            <div class="mobileBtn">
+                <i class="fas fa-grip-lines"></i>
+            </div>
+            <div class="languageSelect">
+                <p class="bold">en</p>
+                <p>pl</p>
+            </div>
+            <div class="social-media-wrapper">
+                <div class="social-media-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-behance"></i>
+                    <i class="fab fa-dribbble"></i>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-contact">
+            <section class="form-section">
+                <div class="contact-introduction">
+                    <h1>GET IN TOUCH</h1>
+                    <p>If you have any questions about my services, or just want to say hello, feel free to contact me.
+                        Below are my social pages and my email: </p>
+                </div>
+                <div class="form-flex">
+                    <div class="form-left">
+                        <div>
+                            <i class="fab fa-instagram"></i>
+                            <p>INSTAGRAM</p>
+                        </div>
+                        <div>
+                            <i class="fab fa-twitter"></i>
+                            <p>TWITTER</p>
+                        </div>
+                        <div>
+                            <i class="fab fa-linkedin-in"></i>
+                            <p>LINKEDIN</p>
+                        </div>
+                        <div>
+                            <i class="fab fa-behance"></i>
+                            <p>BEHANCE</p>
+                        </div>
+                        <div>
+                            <i class="fab fa-dribbble"></i>
+                            <p>DRIBBLE</p>
+                        </div>
+                    </div>
+                    <div class="form-right">
+                        <form autocomplete="off" action="#">
+                            <p>Inquiries: <br> Please fill out this form</p>
+                            
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Name</label>
+
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+
+                            <input type="text" id="duration" name="duration" required>
+                            <label for="duration">Project Duration</label>
+
+                            <textarea name="description" id="description" required></textarea>
+                            <label for="description">Project Description</label>
+
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="picture-right-contact">
+                <div>
+                    <h1>CONTACT.</h1>
+                    <img src="./images/photo-2.png">
+                    <a href="mailto:GDC@behance.net">
+                        <h2>GDC@ <br> behance.net</h2>
+                    </a>
+                </div>
+            </section>
+            <p class="copyright">© All right reserved.</p>
+        </main>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
