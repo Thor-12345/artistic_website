@@ -297,7 +297,7 @@ main {
 
 
 .middle-text {
-    width: 380px;
+    width: 35%;
     height: 90%;
     line-height: 1.3rem;
     display: flex;
@@ -443,7 +443,7 @@ main {
 }
 
 .about-introduction {
-    width: 550px;
+    width: 60%;
     margin-top: 20px;
     margin-left: 5px;
 }
@@ -462,7 +462,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 45px;
     margin-top: 20px;
 }
 
@@ -471,8 +470,6 @@ main {
 .pen, .paintbrush, .pallete, .photo-video, .people {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 400px;
     height: 70px;
 }
 
@@ -483,7 +480,7 @@ main {
 }
 
 .pen div, .paintbrush div, .pallete div, .photo-video div, .people div {
-    width: 400px;
+    width: 68%;
     height: 60%;
 }
 
